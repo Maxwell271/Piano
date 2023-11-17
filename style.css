@@ -1,0 +1,32 @@
+* {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+body {
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(images/istockphoto-959135182-612x612.jpg);
+
+}
+
+.piano-complete {
+    justify-content: space-between;
+    flex-direction: row;
+    height: 300px;
+    padding: 60px 40px 0px 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.chords {
+    flex-direction: column;
+}
+
+.chord-keys {
+    list-style: none;
+}
+
